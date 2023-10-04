@@ -1,0 +1,8 @@
+t1=(1,2,3,4,'Shashank GK',84+43j,0)
+t2=("Hai !",)
+t3=tuple('Shashank G K')
+t4=tuple(x for x in range(10))
+print(t4)
+print(type(t1),",",type(t2),",",type(t3))
+print(t1[4],"",t2[:])
+print(t3)
