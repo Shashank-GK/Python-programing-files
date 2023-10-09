@@ -1,8 +1,5 @@
 # This python program will act as Simple calculator and imported as module in calculator.py
 print(__name__)
-print(
-    " \n ******************************************* Simple Calculator ******************************************* \n"
-)
 
 
 def Calculator(a, b, choice):
