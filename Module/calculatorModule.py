@@ -3,6 +3,7 @@ import calculator as c
 
 A = float(input("Enter the first number: \n"))
 B = float(input("Enter the Second number: \n"))
+print("\n Enter your choice:")
 print("Enter 1 for addition: ")
 print("Enter 2 for subtraction: ")
 print("Enter 3 for Multiplication: ")
