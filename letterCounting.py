@@ -1,6 +1,4 @@
 # This program will count the upper case and lower case characters in given sentence
-
-
 def count(Phrase):
     lower = 0
     upper = 0
