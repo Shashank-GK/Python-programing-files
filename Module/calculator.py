@@ -1,5 +1,5 @@
 # This python program will act as Simple calculator and imported as module in calculator.py
-print(__name__)
+# This program will take two numbers and choice from user and perform the operation accordingly
 
 
 def Calculator(a, b, choice):
@@ -18,3 +18,17 @@ def Calculator(a, b, choice):
     elif choice >> 4:
         return "You have entered the wrong choice number: "
         return "Try again "
+
+
+print(__name__)
+if __name__ == "__main__":
+    A = float(input("Enter the first number: \n"))
+    B = float(input("Enter the Second number: \n"))
+    print("\n Enter your choice:")
+    print("Enter 1 for addition: ")
+    print("Enter 2 for subtraction: ")
+    print("Enter 3 for Multiplication: ")
+    print("Enter 4 for division: \n")
+    Choice = int(input("Enter the choice number : \n"))
+
+    print(Calculator(A, B, Choice))
