@@ -1,13 +1,13 @@
 # Dictionary Challenge
 # Creating the Dictionary with student details
 
-Student={}
+Student = {}
 
 for i in range(3):
-    name=input('Enter your name:')
-    rool_no=input('Enter  your USN: ')
-    dept=input('Enter your department: ')
+    name = input("Enter your name:")
+    rool_no = input("Enter  your USN: ")
+    dept = input("Enter your department: ")
 
-    Student[name]={'USN: ':rool_no,'Name: ':name,'Department: ':dept}
+    Student[name] = {"USN: ": rool_no, "Name: ": name, "Department: ": dept}
 
 print(Student)

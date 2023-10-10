@@ -1,4 +1,4 @@
-day=int(input("Enter the day number: \n"))
+day = int(input("Enter the day number: \n"))
 match day:
     case 2:
         print("Monday")
