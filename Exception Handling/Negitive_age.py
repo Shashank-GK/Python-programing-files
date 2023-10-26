@@ -1,15 +1,26 @@
 # This program will raise an exception if the user enters a negative number for age.
 
 
-def Stage(age):
-    try:
-        if age < 0:
-            raise ValueError("Age cannot be negative")
-        else:
-            print("Your age is", age)
-    except ValueError as e:
-        print(e)
+class NegativeAgeException(Exception):
+    pass
 
 
-Age = int(input("Enter your age: "))
-print(Stage(Age))
+def stage(age):
+    if age < 0:
+        raise NegativeAgeException("Age should not be Negative")
+    elif age >= 0 and age < 13:
+        print("Kid")
+    elif age >= 13 and age < 20:
+        print("Teen")
+    elif age >= 20 and age <= 50:
+        print("Young")
+    else:
+        print("Old")
+
+
+age = int(input("Enter Your Age"))
+
+try:
+    stage(age)
+except NegativeAgeException as e:
+    print(e)
