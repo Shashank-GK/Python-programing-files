@@ -1,4 +1,5 @@
 # This program will raise an exception if the user enters a negative number for age.
+# The program will also raise an exception if the user enters a number greater than 150 for age.
 
 
 class NegativeAgeException(Exception):
