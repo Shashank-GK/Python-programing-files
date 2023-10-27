@@ -1,7 +1,2 @@
+
  “Life is a matter of choices, and every choice you make makes you”- John C Maxwell. 
-This project presents the development of an Arduino-based sign language glove that can 
-translate hand gestures into spoken language. The glove uses flex sensors to detect finger 
-movements, which are processed by the Arduino microcontroller to produce speech output 
-through a speaker or headphones. The aim of the project is to provide a low-cost and 
-portable solution for real-time communication between people with hearing or speech 
-impairments and those who do not know sign language.
