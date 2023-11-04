@@ -23,7 +23,7 @@ class Cuboid:
 
 Length = float(input("Enter the length of the cuboid: "))
 Breadth = float(input("Enter the breadth of the cuboid: "))
-Height = float(input("Enter the height of the cuboid:"))
+Height = float(input("Enter the height of the cuboid: "))
 
 c1 = Cuboid(Length, Breadth, Height)
 print("\nThe volume of the cuboid is: ", c1.volume(), " .units")
