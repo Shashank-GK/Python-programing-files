@@ -8,7 +8,7 @@ class Cuboid:
         self.height = h
 
     def volume(self):
-        return self.length * self.breadth * self.breadth
+        return self.length * self.breadth * self.height
 
     def lid_area(self):
         return self.length * self.breadth
